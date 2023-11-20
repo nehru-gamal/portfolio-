@@ -1,0 +1,89 @@
+.header {
+  padding-bottom: 50px;
+  background-color: var(--backGround-color);
+}
+
+.header .icon {
+  display: inline-block;
+  background-color: var(--backGround-color);
+  width: 90px;
+  height: 90px;
+}
+
+.header .icon::after {
+  content: "";
+  transform: rotate(45deg);
+  left: 33px;
+  top: 0px;
+  position: absolute;
+  background-color: var(--backGround-color);
+  width: 63px;
+  height: 140px;
+}
+
+.header svg {
+  text-align: center;
+  font-size: 40px;
+  color: var(--color-light);
+  margin: 0;
+  padding: 5px 8px;
+}
+
+
+.header .hero svg {
+  font-size: 130px;
+  color: var(--icon-color);
+}
+
+.header .hero {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.header .hero .info h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--header-color);
+}
+
+.header .hero .info h5 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: var(--title-color);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.header .hero .mode span {
+  padding: 0 5px;
+  background-color: #BAAA80;
+  border-radius: 30px;
+}
+
+.header .hero .mode span::after {
+  content: "";
+  transition-duration: .35s;
+  position: absolute;
+  background: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translate(-91%, 2%);
+}
+
+.header .hero .mode span.dark::after {
+  content: "";
+  position: absolute;
+  background: #a60000;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translate(-95px, 2%);
+}
+
+.header .hero .mode svg {
+  font-size: 30px;
+  color: #ffc107;
+}
+
+/* Dark */

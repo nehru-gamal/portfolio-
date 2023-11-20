@@ -1,0 +1,38 @@
+.skills {
+  background-color: #1F1F1F;
+  color: #fff;
+}
+
+.skills {
+  padding: 80px 0;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skills ul li {
+  list-style: none;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2A2929;
+  width: 100px;
+  height: 90px;
+  border-radius: 7px;
+}
+
+.icon svg {
+  margin-top: 5px;
+  font-size: 40px;
+}
+
+.icon span {
+  padding-top: 7px;
+  font-size: 12px;
+}
