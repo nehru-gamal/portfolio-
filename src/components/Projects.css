@@ -1,10 +1,10 @@
-.projects {
+.project {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: var(--backGround-color);
 }
 
-.projects h2 {
+.project h2 {
   letter-spacing: 3px;
   padding: 20px 0 50px;
   font-size: 22px;
@@ -12,34 +12,43 @@
   color: var(--header-color);
 }
 
-.projects .card {
+.project .card {
   background-color: var(--backGround-color-light);
-  padding: 10px;
+  padding: 10px 0px;
   border-radius: 2px;
   cursor: pointer;
+  width: 400px;
 }
 
-.projects .card:hover {
+.project .card:hover {
   transition-duration: .5s;
   transform: scale(1.03);
   box-shadow: 2px 2px 2px 2px rgb(111, 114, 114);
 }
 
-.projects img {
-  width: 300px;
-  height: 200px;
+.project img {
+  width: calc(100% - 10px);
+  height: 230px;
 }
 
-.projects span {
+.project span {
   color: var(--title-color);
   background-color: var(--backGround-color);
   border-radius: 5px;
   padding: 2px 15px;
 }
 
-.projects .card h4 {
+.project .card h4 {
   font-size: 22px;
-  padding: 20px 0 0;
+  padding: 40px 0 0;
   letter-spacing: 5px;
   color: var(--header-color);
+}
+
+@media (max-width: 450px){
+  .project img {
+    width: calc(100% - 10px);
+    height: 200px;
+  }
+  
 }

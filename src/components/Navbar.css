@@ -1,0 +1,71 @@
+.navb {
+  background-color: rgb(33 37 41 / 92%);
+  padding: 15px 0 0px;
+}
+
+.navb .git {
+  float: left;
+  color: #fff;
+}
+
+.navb .git svg {
+  font-size: 50px;
+}
+
+.navb .page svg {
+  margin-left: 10px;
+  color: #E5E3DC;
+  font-size: 40px;
+}
+
+.navb a.git::after {
+  content: "";
+  left: 66px;
+  position: absolute;
+  background-color: #fff;
+  width: 2px;
+  height: 50px;
+}
+
+.navb .lin ul {
+  background-color: #333;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.navb .lin ul li a {
+  color: #d8c593;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.navb .lin ul li a:hover {
+  color: #b18e36;
+  border-bottom: 2px solid #a78d4b;
+}
+
+
+/* MEDIA SCREEN */
+
+@media (max-width: 500px) {
+  .navb .git svg {
+    font-size: 35px;
+    margin-left: 5px;
+  }
+  .navb a.git::after {
+    display: none;
+  }
+  .navb .lin ul {
+    gap: 10px !important;
+    padding: 8px 8px;
+  }
+  .navb .lin ul li a {
+    color: #d8c593;
+    font-size: 16px;
+  }
+  .navb .lin ul li a:hover {
+    border-bottom: none;
+  }
+
+}

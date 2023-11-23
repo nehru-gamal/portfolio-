@@ -17,7 +17,7 @@ export const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
-        <p>Copyright © Nehru Gamal</p>
+        <p>Copyright © nehru_gamal</p>
       </div>
     </div>
   );

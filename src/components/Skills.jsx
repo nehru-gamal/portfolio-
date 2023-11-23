@@ -18,39 +18,39 @@ export const Skills = () => {
     <div className={state.isDarkMode === "dark" ? "dark skills" : "skills"}>
       <div className="container">
         <h2>SKILLS</h2>
-        <ul className="d-flex">
-          <li className="col-2">
-            <div className="icon">
+        <ul className="row">
+          <li className="col-md-2 col-sm-6 d-flex justify-content-center align-items-center">
+            <div className="icon  d-flex flex-column justify-content-center align-items-center ">
               <FontAwesomeIcon icon={faHtml5} />
               <span>HTML 5</span>
             </div>
           </li>
-          <li className="col-2">
-            <div className="icon">
+          <li className="col-md-2 col-sm-6 d-flex justify-content-center align-items-center">
+            <div className="icon  d-flex flex-column justify-content-center align-items-center ">
               <FontAwesomeIcon icon={faCss3Alt} />
               <span>CSS 3</span>
             </div>
           </li>
-          <li className="col-2">
-            <div className="icon">
+          <li className="col-md-2 col-sm-6 d-flex justify-content-center align-items-center">
+            <div className="icon  d-flex flex-column justify-content-center align-items-center ">
               <FontAwesomeIcon icon={faSquareJs} />
               <span>JS</span>
             </div>
           </li>
-          <li className="col-2">
-            <div className="icon">
+          <li className="col-md-2 col-sm-6 d-flex justify-content-center align-items-center">
+            <div className="icon  d-flex flex-column justify-content-center align-items-center ">
               <FontAwesomeIcon icon={faBootstrap} />
               <span>Bootstrap</span>
             </div>
           </li>
-          <li className="col-2">
-            <div className="icon">
+          <li className="col-md-2 col-sm-6 d-flex justify-content-center align-items-center">
+            <div className="icon  d-flex flex-column justify-content-center align-items-center ">
               <FontAwesomeIcon icon={faReact} />
               <span>React</span>
             </div>
           </li>
-          <li className="col-2">
-            <div className="icon">
+          <li className="col-md-2 col-sm-6 d-flex justify-content-center align-items-center">
+            <div className="icon  d-flex flex-column justify-content-center align-items-center ">
               <FontAwesomeIcon icon={faGithub} />
               <span>GitHub</span>
             </div>

@@ -3,24 +3,6 @@
   background-color: var(--backGround-color);
 }
 
-.header .icon {
-  display: inline-block;
-  background-color: var(--backGround-color);
-  width: 90px;
-  height: 90px;
-}
-
-.header .icon::after {
-  content: "";
-  transform: rotate(45deg);
-  left: 33px;
-  top: 0px;
-  position: absolute;
-  background-color: var(--backGround-color);
-  width: 63px;
-  height: 140px;
-}
-
 .header svg {
   text-align: center;
   font-size: 40px;
@@ -36,22 +18,73 @@
 }
 
 .header .hero {
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
 }
 
 .header .hero .info h2 {
+
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em var(--backGround-color);
+  animation: showLetters 1.5s steps(9, end);
+
+
   font-size: 40px;
   font-weight: bold;
   color: var(--header-color);
 }
 
 .header .hero .info h5 {
+  padding: 10px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em var(--backGround-color);
+  animation: showLetters 1.5s steps(9, end) 3;
   font-size: 26px;
   line-height: 1.5;
   color: var(--title-color);
   font-weight: 300;
   text-transform: uppercase;
+}
+
+@keyframes showLetters {
+
+  0%,
+  15% {
+    width: 0;
+    opacity: .1;
+  }
+
+  16%,
+  30% {
+    width: 20%;
+    opacity: .3;
+  }
+
+  31%,
+  45% {
+    width: 40%;
+    opacity: .6;
+  }
+
+  46%,
+  70% {
+    width: 60%;
+    opacity: .8;
+  }
+
+  71%,
+  85% {
+    width: 80%;
+    opacity: .9;
+  }
+
+  86%,
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
 }
 
 .header .hero .mode span {
@@ -60,11 +93,15 @@
   border-radius: 30px;
 }
 
+.dark .hero .mode span {
+  background-color: #7F7F7F;
+}
+
 .header .hero .mode span::after {
   content: "";
   transition-duration: .35s;
   position: absolute;
-  background: #fff;
+  background: #E9D5A1;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -74,16 +111,21 @@
 .header .hero .mode span.dark::after {
   content: "";
   position: absolute;
-  background: #a60000;
-  height: 40px;
-  width: 40px;
+  background: #494949;
+  height: 41px;
+  width: 41px;
   border-radius: 50%;
-  transform: translate(-95px, 2%);
+  transform: translate(-85px, 2%);
 }
 
 .header .hero .mode svg {
   font-size: 30px;
+  color: #494949;
+}
+
+.header .hero .mode .sun {
   color: #ffc107;
+  margin-left: -4px;
 }
 
 /* Dark */

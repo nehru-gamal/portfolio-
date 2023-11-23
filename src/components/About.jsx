@@ -13,23 +13,23 @@ import MyContext from "./MyContext";
 
 export const About = () => {
   const { state } = useContext(MyContext);
-  
+
   return (
     <div className={state.isDarkMode === "dark" ? "dark about" : "about"}>
       <div className="container">
         <h2>About ME</h2>
         <div className="row">
-          <div className="col-3 card left">
+          <div className="left col-md-3 col-sm-12 card">
             <img src={me} alt="" />
 
-            <div className="body d-flex gap-5 align-items-center justify-content-cente">
+            <div className="body">
               <FontAwesomeIcon icon={faReact} />
               <FontAwesomeIcon icon={faNodeJs} />
               <FontAwesomeIcon icon={faBootstrap} />
             </div>
           </div>
 
-          <div className="col-9 right d-flex align-items-end flex-column justify-content-center">
+          <div className="right col-md-9 sol-sm-12 d-flex align-items-end flex-column justify-content-center">
             <div className="col-md-10 ">
               <div className="card">
                 <div className="card-header d-flex gap-1">
@@ -41,7 +41,7 @@ export const About = () => {
                 <div className="card-body">
                   <h5 className=""> Hi :)</h5>
                   <p className="card-text">
-                    👋 I'm Nehru Gamal. Fictional person for preview purposes :)
+                    👋 I'm Josip Reda. Fictional person for preview purposes :)
                     I'm working with newest front-end framework React. What you
                     are seeing now is portfolio template from nehru0909. If you
                     like this portfolio template, make sure to ⭐ the repository

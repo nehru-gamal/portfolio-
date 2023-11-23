@@ -17,10 +17,6 @@
 }
 
 .icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   background-color: #2A2929;
   width: 100px;
   height: 90px;
@@ -35,4 +31,11 @@
 .icon span {
   padding-top: 7px;
   font-size: 12px;
+}
+
+
+@media (max-width: 750px){
+  .icon{
+    margin-bottom: 10px;
+  }
 }
