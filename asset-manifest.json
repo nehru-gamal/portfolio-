@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-/static/css/main.3d159cb2.css",
-    "main.js": "/portfolio-/static/js/main.8a9fd679.js",
+    "main.css": "/portfolio-/static/css/main.67d7e5b4.css",
+    "main.js": "/portfolio-/static/js/main.8453e483.js",
+    "static/media/Josip_Reda Rizk_CV.pdf": "/portfolio-/static/media/Josip_Reda Rizk_CV.4ca2fba98c74e041661e.pdf",
     "static/media/12.jpg": "/portfolio-/static/media/12.e7c03cc07aaed1e79f85.jpg",
     "static/media/Dos2.jpg": "/portfolio-/static/media/Dos2.38a7a749905ed4ae5182.jpg",
     "static/media/14.jpg": "/portfolio-/static/media/14.18a9e0d19666046c4ece.jpg",
+    "static/media/17.jpg": "/portfolio-/static/media/17.da2f77a2aec3e1eec188.jpg",
+    "static/media/16.jpg": "/portfolio-/static/media/16.17734bf942810276a006.jpg",
     "static/media/15.jpg": "/portfolio-/static/media/15.5c3c41d04aac9a3f9286.jpg",
     "index.html": "/portfolio-/index.html",
-    "main.3d159cb2.css.map": "/portfolio-/static/css/main.3d159cb2.css.map",
-    "main.8a9fd679.js.map": "/portfolio-/static/js/main.8a9fd679.js.map"
+    "main.67d7e5b4.css.map": "/portfolio-/static/css/main.67d7e5b4.css.map",
+    "main.8453e483.js.map": "/portfolio-/static/js/main.8453e483.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d159cb2.css",
-    "static/js/main.8a9fd679.js"
+    "static/css/main.67d7e5b4.css",
+    "static/js/main.8453e483.js"
   ]
 }
